@@ -2,4 +2,8 @@
 
 @implementation Cat
 
+- (void)play {
+	NSLog(@"I am playing");
+}
+
 @end
