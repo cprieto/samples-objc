@@ -8,7 +8,7 @@
 }
 
 - (NSString *)saySomething {
-	return [NSString stringWithUTF8String:"meow"];
+	return @"meow";
 }
 
 @end
