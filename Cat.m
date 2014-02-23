@@ -7,6 +7,10 @@
 	_age = n;
 }
 
+- (int)age {
+	return _age;
+}
+
 - (void)play {
 	NSLog(@"I am playing");
 }

@@ -7,6 +7,9 @@ int main(int argc, const char* argv[])
 	[cat play];
 	NSString *something = [cat saySomething];
 	NSLog(@"cat said %@", something);
+
 	[cat setAge:1];
+	NSLog(@"cat is %d years old", [cat age]);
+
 	return 0;
 }

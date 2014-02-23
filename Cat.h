@@ -5,6 +5,8 @@
 }
 
 - (void)setAge:(int)n; 
+- (int)age;
+
 - (void)play;
 - (NSString *)saySomething;
 
