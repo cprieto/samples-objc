@@ -3,6 +3,10 @@
 
 @implementation Cat
 
+- (void)setAge:(int)n {
+	_age = n;
+}
+
 - (void)play {
 	NSLog(@"I am playing");
 }
