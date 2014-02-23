@@ -15,10 +15,16 @@
 	return _age * 5;
 }
 
-- initWithName:(NSString *)n {
+- (id)initWithName:(NSString *)n {
+	self = [self initWithName:n andStripes:@NO];
+	return self;
+}
+
+- (id)initWithName:(NSString *)n andStripes:(NSNumber *)s {
 	self = [self init];
 	if (self) {
 		_name = n;
+		_stripes = s;
 	}
 	return self;
 }
