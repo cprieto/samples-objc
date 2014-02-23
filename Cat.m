@@ -3,8 +3,6 @@
 
 @implementation Cat
 
-@synthesize age = _age;
-
 - (void)play {
 	NSLog(@"I am playing");
 }
