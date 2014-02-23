@@ -1,3 +1,4 @@
+#import <Foundation/Foundation.h>
 #include "Cat.h"
 
 @implementation Cat
@@ -6,8 +7,8 @@
 	NSLog(@"I am playing");
 }
 
-- (char *)saySomething {
-	return "hello world";
+- (NSString *)saySomething {
+	return [NSString stringWithUTF8String:"meow"];
 }
 
 @end
