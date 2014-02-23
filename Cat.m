@@ -6,4 +6,8 @@
 	NSLog(@"I am playing");
 }
 
+- (char *)saySomething {
+	return "hello world";
+}
+
 @end

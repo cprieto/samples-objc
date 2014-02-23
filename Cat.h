@@ -3,5 +3,6 @@
 @interface Cat : NSObject 
 
 - (void)play;
+- (char *)saySomething;
 
 @end

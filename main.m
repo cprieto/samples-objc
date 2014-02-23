@@ -5,6 +5,7 @@ int main(int argc, const char* argv[])
 {
 	Cat *cat = [[Cat alloc] init];
 	[cat play];
-	NSLog(@"Hello world");
+	char *something = [cat saySomething];
+	NSLog(@"cat said %s", something);
 	return 0;
 }
