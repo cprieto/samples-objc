@@ -1,11 +1,8 @@
 #include <Foundation/Foundation.h>
 
-@interface Cat : NSObject {
-	int _age;
-}
+@interface Cat : NSObject
 
-- (void)setAge:(int)n; 
-- (int)age;
+@property int age;
 
 - (void)play;
 - (NSString *)saySomething;

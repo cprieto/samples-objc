@@ -3,13 +3,7 @@
 
 @implementation Cat
 
-- (void)setAge:(int)n {
-	_age = n;
-}
-
-- (int)age {
-	return _age;
-}
+@synthesize age = _age;
 
 - (void)play {
 	NSLog(@"I am playing");
@@ -17,6 +11,10 @@
 
 - (NSString *)saySomething {
 	return @"meow";
+}
+
+- (int)humanAge {
+	return _age * 5;
 }
 
 @end
