@@ -8,6 +8,10 @@
 
 - (id)init {
 	self = [super initWithName:@"Garfield" andStripes:@YES];
+	if (self) {
+		whatToGroom = @"my ass";
+	}
+
 	return self;
 }
 
