@@ -32,7 +32,7 @@
 	if (self) {
 		_name = n;
 		_stripes = s;
-		whatToGroom = @"my body";
+		whatToGroom = @"body";
 	}
 	return self;
 }
