@@ -1,6 +1,9 @@
 #include <Foundation/Foundation.h>
 
-@interface Cat : NSObject
+@interface Cat : NSObject {
+	NSString *whatToGroom; 
+}
+	
 
 @property int age;
 @property (readonly) NSString *name;

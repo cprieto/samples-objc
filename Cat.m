@@ -32,6 +32,7 @@
 	if (self) {
 		_name = n;
 		_stripes = s;
+		whatToGroom = @"my body";
 	}
 	return self;
 }
@@ -56,7 +57,7 @@
 }
 
 - (void)groom {
-	[self lick:@"myself"];
+	[self lick:whatToGroom];
 }
 
 @end
