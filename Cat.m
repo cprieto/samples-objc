@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
-#include "Cat.h"
+#import "Cat.h"
+#import "Garfield.h"
 
 @implementation Cat
 
