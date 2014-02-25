@@ -17,8 +17,15 @@
 	return self;
 }
 
+/**
+ * Garfield already has a name, use init instead
+ * @code
+ * Garfield *g = [Garfield alloc] init];
+ * @endcode
+ * @warming it will throw an exception
+ */
 - (id)initWithName:(NSString *)n {
-	@throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"Garfield already has a name" userInfo:nil];
+	@throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"Garfield already has a name, use init instead" userInfo:nil];
 
 	return nil;
 }

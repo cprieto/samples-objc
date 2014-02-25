@@ -21,7 +21,17 @@ int main(int argc, const char* argv[])
 		Cat *motto = [[Cat alloc] initWithName:@"Motto" andStripes:@YES];
 		NSLog(@"Hey, %@ has stripes? %@", [motto name], [motto isStripped]);
 
-		Garfield *garfield = [[Garfield alloc] initWithName:@"Garfield"];
+		@try {
+			Garfield *garfield = [[Garfield alloc] init]; 
+			[garfield eatPizza];
+		}
+		@catch (NSException *e) {
+			NSLog(@"Shit got real because %@", [e reason]);
+		}
+		@finally {
+			NSLog(@"Classic Garfield");
+		}
+
 	}
 
 	return 0;
