@@ -18,7 +18,9 @@
 }
 
 - (id)initWithName:(NSString *)n {
-	return [super initWithName:n];
+	@throw [NSException exceptionWithName:NSInternalInconsistencyException reason:@"Garfield already has a name" userInfo:nil];
+
+	return nil;
 }
 
 @end
