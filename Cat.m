@@ -2,6 +2,12 @@
 #import "Cat.h"
 #import "Garfield.h"
 
+@interface Cat ()
+
+- (void)lick:(NSString *)p;
+
+@end
+
 @implementation Cat
 
 - (void)play {
@@ -43,6 +49,14 @@
 // Now this is messaging passing
 - (void)sleepIn:(NSString *)p with:(NSString *)w {
 	NSLog(@"I'm sleeping in %@ with %@", p, w);
+}
+
+- (void)lick:(NSString *)p {
+	NSLog(@"As a cat I lick %@", p);
+}
+
+- (void)groom {
+	[self lick:@"myself"];
 }
 
 @end

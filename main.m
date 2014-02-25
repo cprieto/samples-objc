@@ -24,6 +24,7 @@ int main(int argc, const char* argv[])
 		@try {
 			Garfield *garfield = [[Garfield alloc] init]; 
 			[garfield eatPizza];
+			[garfield groom];
 		}
 		@catch (NSException *e) {
 			NSLog(@"Shit got real because %@", [e reason]);

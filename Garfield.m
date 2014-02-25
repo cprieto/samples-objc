@@ -1,11 +1,5 @@
 #include "Garfield.h"
 
-@interface Garfield ()
-
-- (id) __unavailable initWithName:(NSString *)n;
-
-@end
-
 @implementation Garfield
 
 - (void)eatPizza {

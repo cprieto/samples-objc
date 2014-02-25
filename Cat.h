@@ -16,4 +16,6 @@
 - (id)initWithName:(NSString *)n;
 - (id)initWithName:(NSString *)n andStripes:(NSNumber *) s;
 
+- (void)groom;
+
 @end
