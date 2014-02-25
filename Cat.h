@@ -1,6 +1,7 @@
 #include <Foundation/Foundation.h>
 
 @interface Cat : NSObject {
+	@private
 	NSString *whatToGroom; 
 }
 	
