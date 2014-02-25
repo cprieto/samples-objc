@@ -6,4 +6,9 @@
 	NSLog(@"Eating pizza");
 }
 
+- (id)init {
+	self = [super initWithName:@"Garfield" andStripes:@YES];
+	return self;
+}
+
 @end

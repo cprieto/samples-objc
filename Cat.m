@@ -22,7 +22,7 @@
 }
 
 - (id)initWithName:(NSString *)n andStripes:(NSNumber *)s {
-	self = [self init];
+	self = [super init];
 	if (self) {
 		_name = n;
 		_stripes = s;
